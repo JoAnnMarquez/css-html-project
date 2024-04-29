@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <meta name=" viewport" content="width=device-width,0">
+    <link rel="stylesheet" href="style.css">
+    <title>3's Marias Club coffee</title>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">3's Marias Club Coffee</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Exit</li>
+
+
+        </ul>
+        <img src="menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>Coffee makes our lives brighter</h1>
+            <div class="line"></div>
+            <h2>We're here to make your coffee experience better</h2>
+
+
+        </div>
+    </header>
+
+    <section class="menu">
+
+
+        <div class="title">
+            <h1>On the Menu</h1>
+
+        </div>
+        <div class="row">
+
+            <div class="col">
+                <h1> Select your Favorite Coffee</h1>
+                <img src="machiato.jfif" width="200" height="150" />
+                <h4>Macchiato Coffee</h4>
+                <p>A macchiato is perfect for those who find espresso too harsh in flavour, but a cappuccino too weak.
+                </p>
+                <img src="espreso.jfif" width="200" height="150" />
+                <h4>Espreso Coffee</h4>
+                <p>Espresso is a delicious concentrated form of coffee, served in shots</p>
+                <img src="Cappuccino.jfif" width="200" height="150" />
+                <h4> Cappuccino Coffee</h4>
+                <div class="row">
+                    <p>A cappuccino is the perfect balance of espresso, steamed milk and foam</p>
+
+                </div>
+
+            </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>
+
+
+
+</head>
